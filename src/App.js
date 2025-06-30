@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import TicTacToe from './Component/TicTacToe';
+import logo from "./logo.svg";
+import "./App.css";
+import TicTacToe from "./Component/TicTacToe";
 
 function App() {
   return (
     <div className="App">
-      <TicTacToe/>
+      <TicTacToe />
     </div>
   );
 }

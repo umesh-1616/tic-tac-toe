@@ -39,7 +39,11 @@ function TicTacToe() {
     ];
     for (let i = 0; i < combination.length; i++) {
       const [a, b, c] = combination[i];
-      if (board[a] && board[a] === board[b] && board[b] === board[c]) {
+      if (
+        newBoard[a] &&
+        newBoard[a] === newBoard[b] &&
+        newBoard[b] === newBoard[c]
+      ) {
         return combination[i];
       }
     }
